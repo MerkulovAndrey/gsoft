@@ -8,7 +8,7 @@ define ("DBHOST", "localhost");
 
 # PATH to app and app name
 define ("PATH", "mvc-php");
-define ("WEB_TITLE", "Web app");
+define ("WEB_TITLE", "Тестовое задание PHP");
 
 # PATH to media files and site root constants
 define ("SITE_ROOT", "/" . PATH);

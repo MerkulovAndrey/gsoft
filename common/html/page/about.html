@@ -5,64 +5,34 @@
             <h1 class="color-primary">
               {$ABOUT_TITLE$}
             </h1>
-            
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            </p>
-            
-            <p class="text-center-xs">
-              <a href="#" title="Read more" class="btn btn-primary">Read more</a>
-            </p>
           </div>
         </div>
       </div>
     </section>
-    
+
     <section class="content">
       <div class="container">
-        <div class="row">
-          <div class="col-2">
-            <h3 class="color-secondary">
-              A heading title
-            </h3>
-                
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-              
-            <p class="text-center-xs">
-              <a href="#" title="Read more" class="btn btn-primary">Read more</a>
-            </p>
-          </div>
-              
-          <div class="col-2">
-            <h3 class="color-secondary">
-              A heading title
-            </h3>
-              
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-              
-            <p class="text-center-xs">
-              <a href="#" title="Read more" class="btn btn-primary">Read more</a>
-            </p>
-          </div>
-        </div>
-        
+
         <div class="row">
           <div class="col-1">
             <h3 class="color-secondary">
-              A heading title
+              Практическое задание
             </h3>
-                
+
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Небольшое web-приложение – личный кабинет для каждого из типов пользователей (менеджеры и клиенты) по следующему техническому заданию:
             </p>
-              
-            <p class="text-center-xs">
-              <a href="#" title="Read more" class="btn btn-primary">Read more</a>
-            </p>
+
+            <ol>
+              <li>Основное окно – таблица грузов со всеми необходимыми связями - id_client должен быть заменен на name из соответствующие таблицы клиентов. Вместо id_manager должно выводится полное имя (имя и фамилия) менеджера. Каждый клиент должен видеть только свои грузы, каждый менеджер должен видеть грузы тех клиентов, которых он ведет.
+              <li>При нажатии на ячейку клиента или менеджера открывается окно детализации (полная информация по менеджеру или клиенту).
+              <li>Таблицу, какой ее видит клиент или менеджер, можно выгрузить в Excel прямо в браузере или отравить Excel-файл по почте (т.е. сначала формируется файл, потом отправляется на почту).
+              <li>Клиент в отдельном окне «Завести груз» может добавить в систему новый груз. Указывается только номер контейнера. Status по дефолту Awaiting.
+              <li>Менеджер в отдельном окне «Новые грузы» может назначить себя исполнителем по любому из только что созданных грузов.
+              <li>По доступной только менеджеру ссылке «Редактировать груз» можно менять статус груза (On board или Finished) и время прибытия.
+              <li>Для выгрузки в Excel рекомендуется использовать библиотеку PHP-Excel. Использовать мейнстрим-фреймворки или CMS нельзя (но можно MVC, как основу архитектуры проекта). Оценивается Ваше собственное видение решения задачи и навыки проектирования. Верстка значения не имеет. Пользоваться JS/JQuery можно. Рекомендуется после каждого итерационного цикла выкладывать проект в git-репозиторий.
+            </ol>
+
           </div>
         </div>
       </div>
